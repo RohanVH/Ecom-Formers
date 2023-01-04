@@ -1,5 +1,6 @@
 import React from 'react'
 import './css/errorpage.css';
+import { Link } from 'react-router-dom'; 
 const ErrorPage = () => {
   return (
     <div>
@@ -23,7 +24,9 @@ const ErrorPage = () => {
                 
                 <p>the page you are looking for not avaible!</p>
                 
-                <a href="https://instagram.com/abol.codes" class="link_404">Go to Home</a>
+                
+                    <Link to='/'><span class="link_404">Go to Home</span></Link>
+                    
             </div>
                 </div>
                 </div>
